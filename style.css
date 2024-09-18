@@ -1,0 +1,127 @@
+
+body{
+    font-family: "Poppins", system-ui;
+
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px;
+    color:#f54744;
+    background-color: #fff4f3;
+    
+}
+.container{
+    display:flex;
+    column-gap: 20px;
+    
+}
+.container a{
+    text-decoration: none;
+    color:#c0b9b9;
+
+}
+.container a:hover{
+    text-decoration: underline;
+    color:black;
+}
+.home{
+    width: 100%;
+    height: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: #fff4f3;
+    gap: 1.5rem;
+}
+.home-img img{
+    width:70%;
+
+}
+.home-text {
+    margin: 50px;
+    font-size: 25px;
+}
+.home-text h3{
+    color:#f54744;
+    font-size: 1rem;
+    font-weight: 400 ;
+    padding: 10px;
+    width:160px;
+    border-radius: 2rem;
+    background: #feeceb;
+    margin-top: 50px;
+
+}
+.home-text h1{
+    font-size: 3.2rem;
+}
+.home-text span{
+    color:#f54744;
+}
+.btn{
+    background: #f54744;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding:10px 15px;
+}
+.heading{
+    text-align: center;
+}
+.heading p{
+    text-transform: uppercase;
+    font-weight:500;
+    color:#f54744;
+}
+.heading h2{
+    font-size: 30px;
+}
+.service-container{
+    display: flex;
+     gap:1.5rem;
+    margin:50px;
+}
+.box{
+
+    align-items: center;
+    text-align: center;
+}
+.box h2{
+    font-size: 30px;
+}
+
+.chefs .chefs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-right:3% ;
+    padding:100px;
+    border: 1px solid black;
+}
+.chefs .chefs-container .chef-box .text{
+    text-align:center;
+}
+.chefs .chefs-container .chef-box .text p{
+    font-weight: bold;
+    
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
+.contact-form form{
+    display: flex;
+    
+    flex-direction: column;
+}
+.contact-form form input {
+    width:300px;
+    padding: 20px;
+}
+
+
